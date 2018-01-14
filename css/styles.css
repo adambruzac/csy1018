@@ -1,0 +1,117 @@
+.header{
+    background-color: #F6F6F6
+}
+
+.main{
+    background-color: #2B2B2B;
+}
+.footer{
+    background-color: blue;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Crete Round', serif;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    padding: 1em;
+    list-style-type: none;
+    flex: 1 1 150px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2B2B2B;
+
+}
+
+.showcase{
+    background:url("../pictures/showcase.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 400px;
+    height: 400px;
+
+}
+.team{
+    background-color: #2B2B2B;
+    color:#F6F6F6;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-header, .bio-header{
+
+    color: #F6F6F6;
+    text-align: center;
+    margin: 0;
+    font-family: 'Crete Round', serif;
+    font-size: 3em;
+}
+
+.member{
+    flex: 1 1 330px;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 2em;
+}
+
+.bio-containers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio-container{
+    flex: 1 1 500px;
+    border: 1px solid red;
+    font-family: 'Crete Round', serif;
+    font-size: 1em;
+    color: #F6F6F6;
+    
+}
+
+.video-container video{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-part{
+    flex: 1 1 500px;
+    border: 1px solid red;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+@media all and (max-width:600px){
+
+}
