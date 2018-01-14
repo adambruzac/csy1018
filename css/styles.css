@@ -94,7 +94,7 @@ body{
 .bio-container{          /*text */
     flex: 1 1 500px;
     font-family: 'Crete Round', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #F6F6F6;
     
 }
@@ -133,7 +133,9 @@ body{
 .company-name{
     color: #DE1B1B;
 }
-
+.bio-container{
+    font-size: 0.5em;
+}
 
 }
 
@@ -162,7 +164,7 @@ body{
 
 .job-container{          /*text */
     flex: 1 1 500px;
-    border: 1px solid#DE1B1Bred;
+    border: 1px solid #DE1B1Bred;
     font-family: 'Crete Round', serif;
     font-size: 1em;
     color: #F6F6F6;
@@ -186,18 +188,42 @@ body{
 
 
 /*      Resources          */
-
+    
 
 
 .resources-main{
-    margin: 1em;
+    margin: 0;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Applies for the header in the section tag */
+.res-header{
+    color: #F6F6F6;
+    font-family: 'Crete Round', serif;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
 }
 
-.container-resources{
-    padding: 0.5em;
+.containers-resources{
+    font-size: 2em;
+    padding: 1em;
     color: #F6F6F6;
 
 }
 
+.resource{
+    padding: 1em;
+    margin:2em;
+    color: #F6F6F6;
+    font-size: 2em; 
+    border: #DE1B1B 3px solid;
+
+}
+
+
+.aside{
+    color: #E9E581;
+    font-size: 2em; 
+}
