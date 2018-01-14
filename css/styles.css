@@ -142,6 +142,11 @@ body{
     font-size: 0.5em; /* --change the font of the bio description   */
 }
 
+.glossary{
+    font-size: 1em;
+    padding: 0;
+    margin:0;
+}
 }
 
 
@@ -288,3 +293,21 @@ body{
     
 }
 
+
+
+/*    Log     */
+
+.log-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    
+}
+
+.practices{
+    display: flex;
+    flex-direction: column;
+    color: #F6F6F6;
+    font-size: 1em;
+}
